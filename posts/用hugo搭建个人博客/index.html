@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>郑尔鹏的博客  | 用hugo搭建个人博客</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.68.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.1cb140d8ba31d5b2f1114537dd04802a.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="用hugo搭建个人博客" />
+<meta property="og:description" content="第一步：安装Hugo 1.浏览 Hugo 官方的安装指南。
+进行初步了解，安装与你的操作系统对应的必要工具。
+Hugo 安装指南：https://gohugo.io/getting-started/installing/
+2.打开你的终端，输入与操作系统对应的 Hugo 安装命令。
+3.安装完成后，输入以下命令来确认
+hugo version 安装成功后会跳出以下代码 Hugo Static Site Generator v0.56.3-F637A1EA windows/amd64 BuildDate: 2019-07-31T12:51:49Z 第二步：新建一个Hugo网站 1.进入你想存放 Hugo 网站文件夹的目录。
+2.执行以下命令来新建一个Hugo网站
+hugo new site &#39;你的博客名&#39; 第三步：选择 Hugo 主题并克隆至本地目录。 1.打开 Hugo Themes 页面，选择一个你喜欢的主题。
+Hugo Themes: https://themes.gohugo.io
+下文以选择 ananke主题为例。
+cd &#39;你的博客名&#39; ---进入你的博客目录 git init ---初始化本地仓库 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke ---将ananke主题克隆到本地 第四步：编辑配置文件   在 Hugo 网站文件夹的根目录下，使用 Visual Studio Code 打开 config.toml 文件。
+如果你还没用过 Visual Studio Code，建议下载安装一下，是一个很好用的开源文本编辑器，同时支持 Windows、Linux 和 macOS 操作系统。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" />
+<meta property="article:published_time" content="2020-03-24T18:31:18+08:00" />
+<meta property="article:modified_time" content="2020-03-24T18:31:18+08:00" />
+<meta itemprop="name" content="用hugo搭建个人博客">
+<meta itemprop="description" content="第一步：安装Hugo 1.浏览 Hugo 官方的安装指南。
+进行初步了解，安装与你的操作系统对应的必要工具。
+Hugo 安装指南：https://gohugo.io/getting-started/installing/
+2.打开你的终端，输入与操作系统对应的 Hugo 安装命令。
+3.安装完成后，输入以下命令来确认
+hugo version 安装成功后会跳出以下代码 Hugo Static Site Generator v0.56.3-F637A1EA windows/amd64 BuildDate: 2019-07-31T12:51:49Z 第二步：新建一个Hugo网站 1.进入你想存放 Hugo 网站文件夹的目录。
+2.执行以下命令来新建一个Hugo网站
+hugo new site &#39;你的博客名&#39; 第三步：选择 Hugo 主题并克隆至本地目录。 1.打开 Hugo Themes 页面，选择一个你喜欢的主题。
+Hugo Themes: https://themes.gohugo.io
+下文以选择 ananke主题为例。
+cd &#39;你的博客名&#39; ---进入你的博客目录 git init ---初始化本地仓库 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke ---将ananke主题克隆到本地 第四步：编辑配置文件   在 Hugo 网站文件夹的根目录下，使用 Visual Studio Code 打开 config.toml 文件。
+如果你还没用过 Visual Studio Code，建议下载安装一下，是一个很好用的开源文本编辑器，同时支持 Windows、Linux 和 macOS 操作系统。">
+<meta itemprop="datePublished" content="2020-03-24T18:31:18&#43;08:00" />
+<meta itemprop="dateModified" content="2020-03-24T18:31:18&#43;08:00" />
+<meta itemprop="wordCount" content="187">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="用hugo搭建个人博客"/>
+<meta name="twitter:description" content="第一步：安装Hugo 1.浏览 Hugo 官方的安装指南。
+进行初步了解，安装与你的操作系统对应的必要工具。
+Hugo 安装指南：https://gohugo.io/getting-started/installing/
+2.打开你的终端，输入与操作系统对应的 Hugo 安装命令。
+3.安装完成后，输入以下命令来确认
+hugo version 安装成功后会跳出以下代码 Hugo Static Site Generator v0.56.3-F637A1EA windows/amd64 BuildDate: 2019-07-31T12:51:49Z 第二步：新建一个Hugo网站 1.进入你想存放 Hugo 网站文件夹的目录。
+2.执行以下命令来新建一个Hugo网站
+hugo new site &#39;你的博客名&#39; 第三步：选择 Hugo 主题并克隆至本地目录。 1.打开 Hugo Themes 页面，选择一个你喜欢的主题。
+Hugo Themes: https://themes.gohugo.io
+下文以选择 ananke主题为例。
+cd &#39;你的博客名&#39; ---进入你的博客目录 git init ---初始化本地仓库 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke ---将ananke主题克隆到本地 第四步：编辑配置文件   在 Hugo 网站文件夹的根目录下，使用 Visual Studio Code 打开 config.toml 文件。
+如果你还没用过 Visual Studio Code，建议下载安装一下，是一个很好用的开源文本编辑器，同时支持 Windows、Linux 和 macOS 操作系统。"/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://example.org/" class="f3 fw2 hover-white no-underline white-90 dib">
+      郑尔鹏的博客
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        POSTS
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=http://example.org/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=http://example.org/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&amp;text=%e7%94%a8hugo%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://example.org/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&amp;title=%e7%94%a8hugo%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+      <h1 class="f1 athelas mt3 mb1">用hugo搭建个人博客</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-03-24T18:31:18&#43;08:00">March 24, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="第一步安装hugo">第一步：安装Hugo</h1>
+<p>1.浏览 Hugo 官方的安装指南。</p>
+<p>进行初步了解，安装与你的操作系统对应的必要工具。</p>
+<p>Hugo 安装指南：<a href="https://gohugo.io/getting-started/installing/">https://gohugo.io/getting-started/installing/</a></p>
+<p>2.打开你的终端，输入与操作系统对应的 Hugo 安装命令。</p>
+<p>3.安装完成后，输入以下命令来确认</p>
+<pre><code>hugo version
+安装成功后会跳出以下代码
+Hugo Static Site Generator v0.56.3-F637A1EA windows/amd64 BuildDate: 2019-07-31T12:51:49Z
+</code></pre><h1 id="第二步新建一个hugo网站">第二步：新建一个Hugo网站</h1>
+<p>1.进入你想存放 Hugo 网站文件夹的目录。</p>
+<p>2.执行以下命令来新建一个Hugo网站</p>
+<pre><code>hugo new site '你的博客名' 
+</code></pre><h1 id="第三步选择-hugo-主题并克隆至本地目录">第三步：选择 Hugo 主题并克隆至本地目录。</h1>
+<p>1.打开 Hugo Themes 页面，选择一个你喜欢的主题。</p>
+<p>Hugo Themes: <a href="https://themes.gohugo.io/">https://themes.gohugo.io</a></p>
+<p>下文以选择 ananke主题为例。</p>
+<pre><code>cd '你的博客名'            ---进入你的博客目录
+git init                  ---初始化本地仓库
+git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke  ---将ananke主题克隆到本地
+</code></pre><h1 id="第四步编辑配置文件">第四步：编辑配置文件</h1>
+<ol>
+<li>
+<p>在 Hugo 网站文件夹的根目录下，使用 <a href="https://mp.weixin.qq.com/s/lt9XzlAOzpIqPLMuUBVNLw">Visual Studio Code</a> 打开 <code>config.toml</code> 文件。</p>
+<p>如果你还没用过 Visual Studio Code，建议下载安装一下，是一个很好用的开源文本编辑器，同时支持 Windows、Linux 和 macOS 操作系统。</p>
+</li>
+<li>
+<p>参考所选 Hugo 主题的配置说明，编辑 <code>config.toml</code> 文件。</p>
+<p><strong>注意</strong>：<code>theme</code> 配置项指的是所选主题的名称，必须与所选主题被克隆至的目录名相同。在本例中，即 <code>theme = &quot;ananke&quot;</code>。</p>
+</li>
+</ol>
+<h1 id="第五步新建一篇文章">第五步：新建一篇文章</h1>
+<pre><code>hugo new posts/文章名.md
+</code></pre><p>编辑新建的文章，添加内容并保存。</p>
+<h1 id="第六步本地预览网站效果">第六步：本地预览网站效果。</h1>
+<ol>
+<li>启动 Hugo server。</li>
+</ol>
+<pre><code>hugo server -d
+</code></pre><p>2.使用浏览器打开 <a href="http://localhost:1313/">http://localhost:1313</a> 预览。</p>
+<h1 id="第七步构建hugo网站">第七步：构建hugo网站</h1>
+<p>在 Hugo 网站文件夹的根目录下，执行 hugo 命令来构建。</p>
+<pre><code>hugo  ---构建你的 Hugo 网站，默认将静态站点保存到 &quot;public&quot; 目录。
+</code></pre><p><strong>注意</strong>：Hugo 会将构建的网站内容默认保存至网站根目录的 <code>public/ </code>文件夹中。</p>
+<h1 id="第八步将网站文件夹转换为-git-库">第八步：将网站文件夹转换为 Git 库。</h1>
+<p>1.进入<code>public</code>目录，初始化 Git 库。</p>
+<pre><code>cd public    ---生成的 HTML 文件保存在 &quot;public&quot; 目录中，&quot;public&quot; 文件夹会被转换为 Git 库。
+git init  ---初始化git仓库
+</code></pre><p>2.查看<code>public</code>目录下的文件，会发现多了 <code>.git</code> 文件。</p>
+<h1 id="第九步将-git-本地库与远程仓库关联">第九步：将 Git 本地库与远程仓库关联。</h1>
+<p>1.在github上创建第一个新的仓库</p>
+<p>2.运行以下代码来进行关联</p>
+<pre><code>git remote add origin '你的远程仓库名'   ---注意是在public目录中运行
+git add .   ---将改动添加到暂存区
+git commit -m '备注'   ---将改动提交
+git push -u origin master   ---上传到远程仓库
+</code></pre><h1 id="第十步通过-github-pages-预览-html">第十步：通过 GitHub Pages 预览 HTML</h1>
+<p><code>git push</code>完之后再github中点击<code>setting</code>来设置在预览你的hugo博客
+(<img src="https://upload-images.jianshu.io/upload_images/19233819-95a904ee3258be44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="点击setting设置">
+)</p>
+<p>进入之后找到 <code>Github Pages</code> 然后将<code>Source</code>的<code>None</code>设置成<code>master branch</code>，之后会生成一个网址，就是你的HTML预览的网站了
+<img src="https://upload-images.jianshu.io/upload_images/19233819-80f4f33d9098d5f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="将none修改成master branch">
+<img src="https://upload-images.jianshu.io/upload_images/19233819-db8e11cdd20c7a9e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="这是你hugo博客的网站"></p>
+<h1 id="接下来之后如何添加一篇博客">接下来：之后如何添加一篇博客</h1>
+<p>之后如果要添加一篇博客，使用如下几步即可：</p>
+<p>新建一篇文章，编辑内容。
+1.本地预览网站呈现效果。
+2.构建 Hugo 网站。
+3.提交修改至 Git 本地库。
+4.将修改推至远程库。</p>
+<p><strong>恭喜！现在你已经走完了全程，拥有了一个自己构建的博客网站。</strong></p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://example.org/" >
+    &copy;  郑尔鹏的博客 2020 
+  </a>
+    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>
