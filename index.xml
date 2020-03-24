@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>郑尔鹏的博客</title>
-    <link>http://localhost:1313/</link>
+    <link>https://oldsevenisme.github.io/</link>
     <description>Recent content on 郑尔鹏的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
     <lastBuildDate>Tue, 24 Mar 2020 18:31:18 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://oldsevenisme.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>用hugo搭建个人博客</title>
-      <link>http://localhost:1313/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://oldsevenisme.github.io/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Tue, 24 Mar 2020 18:31:18 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://oldsevenisme.github.io/posts/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description>第一步：安装Hugo 1.浏览 Hugo 官方的安装指南。
 进行初步了解，安装与你的操作系统对应的必要工具。
 Hugo 安装指南：https://gohugo.io/getting-started/installing/
@@ -33,10 +33,10 @@ cd &#39;你的博客名&#39; ---进入你的博客目录 git init ---初始化�
     
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://oldsevenisme.github.io/posts/my-first-post/</link>
       <pubDate>Tue, 24 Mar 2020 17:37:54 +0800</pubDate>
       
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://oldsevenisme.github.io/posts/my-first-post/</guid>
       <description>大家好 我的博客开通了，希望能写出好的文章！</description>
     </item>
     
